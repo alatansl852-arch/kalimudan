@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalimudan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="logo">Kali<span>mudan</span></div>
+  <div class="seg" id="seg">
+    <button data-act="role" data-r="customer" class="on">Customer</button>
+    <button data-act="role" data-r="owner">Admin</button>
+  </div>
+</header>
+<main id="app"></main>
+<p class="foot">Kalimudan prototype by StartStruck. Halls, names and bookings are sample data. Payments are simulated.</p>
+<div id="cmpbar"><span id="cmpn"></span><button class="btn sm" data-act="cmpclear">Clear</button><button class="btn primary sm" data-act="cmpopen">Compare</button></div>
+<button id="msgbtn" data-act="msg">Messenger preview <b id="badge">0</b></button>
+<div id="msgp"></div>
+<div id="modal"></div>
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
